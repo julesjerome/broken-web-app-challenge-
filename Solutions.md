@@ -54,3 +54,13 @@ If you try and visit the DNS name of the load balancer you will receive an error
 ![alt text](Capture11.PNG)
 * Save changes 
 
+### To fix the 4th issue
+* Go to EC2 and navigate to Load balancers.
+* Select your load balancer and click Actions, on the drop down select Edit Subnets.
+![alt text](Capture12.PNG)
+
+You will notice that that the 2 availability zones are private, make them public and save changes.
+![alt text](Capture13.PNG)
+
+Now try visiting the DNS name of the load balancer and it works perfectly.
+![alt text](Capture14.PNG)
