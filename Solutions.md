@@ -20,13 +20,15 @@ If you try and visit the DNS name of the load balancer you will receive an error
 
 ![alt text](Capture.PNG)
 
-To fix this issue, go to EC2 and navigate down to Target group
-Select your target group 
-Under target click on registers
+### To fix this issue
+
+* Go to EC2 and navigate down to Target group
+* Select your target group 
+* Under target click on registers
 ![alt text](Capture6.PNG)
 
-Select the 2 EC2 instances created
+* Select the 2 EC2 instances created
 ![alt text](Capture7.PNG)
 
-Select 'include as pending below'
-Clcik on Register pending targets 
+* Select 'include as pending below'
+* Clcik on Register pending targets 
