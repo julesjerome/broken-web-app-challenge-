@@ -32,3 +32,12 @@ If you try and visit the DNS name of the load balancer you will receive an error
 
 * Select 'include as pending below'
 * Clcik on Register pending targets 
+
+### To fix the 2nd issue
+* select the target group created 
+* Under Health checks
+* Click edit, you would notice its Hmtl instead of Html. 
+![alt text](Capture8.PNG)
+![alt text](Capture9.PNG)
+
+* Change to Html and save changes 
