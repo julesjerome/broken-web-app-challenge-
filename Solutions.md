@@ -41,3 +41,16 @@ If you try and visit the DNS name of the load balancer you will receive an error
 ![alt text](Capture9.PNG)
 
 * Change to Html and save changes 
+
+### To fix the 3rd issue
+* Go to EC2 and navigate to instances.
+* Select one of the instance created and check the security group, you would notice just port 22 is opened. you would need to open up port 80.
+"Port 80, which is typically used for HTTP traffic, is currently not open on the server/network. This means that web traffic using the standard HTTP protocol won't be able to reach or be served by the application".
+![alt text](Capture10.PNG)
+
+* Select inbound rule and click edit inbound rule.
+* Click add rule 
+* Choose Http as the type and select anywhere as the source
+![alt text](Capture11.PNG)
+* Save changes 
+
